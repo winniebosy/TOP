@@ -1,0 +1,17 @@
+19.01.22
+The most suitable way to define objects is susing object literals.
+
+const myObject = {
+  property: 'Value!',
+  otherProperty: 77,
+  "obnoxious property": function() {
+    // do stuff!
+ }
+}
+One can access information using the dot notation and the bracket notation.
+/.dot notation: myObject.property 
+//bracket notation myObject['obnoxious proeprty']
+
+Object Constructors
+Used to duplicate specific type of objects such as inventory items.
+It is mainly a function using the 'this'Key word.

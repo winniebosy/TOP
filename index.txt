@@ -16,3 +16,8 @@ Object Constructors
 Used to duplicate specific type of objects such as inventory items.
 It is mainly a function using the 'this'Key word.
 All objects in JavaScript have a prototype. Stated simply, the prototype is another object that the original object inherits from, which is to say, the original object has access to all of its prototype’s methods and properties.
+
+
+wasnt able to study object constructors today.
+
+testing git 

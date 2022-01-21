@@ -1,5 +1,5 @@
 19.01.22
-The most suitable way to define objects is susing object literals.
+The most suitable way to define objects is using object literals.
 
 const myObject = {
   property: 'Value!',
@@ -18,6 +18,9 @@ It is mainly a function using the 'this'Key word.
 All objects in JavaScript have a prototype. Stated simply, the prototype is another object that the original object inherits from, which is to say, the original object has access to all of its prototype’s methods and properties.
 
 
-wasnt able to study object constructors today.
+wasnt able to study object constructors today. Took a break
 
-testing git 
+
+21/01/21
+
+

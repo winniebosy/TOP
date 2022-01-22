@@ -80,3 +80,24 @@ Doing so means that a single instance of each function will be shared between al
 If we declare the function directly in the constructor, like we did when they were first introduced, 
 that function would be duplicated every time a new Student is created. In this example, 
 that wouldn’t really matter much, but in a project that is creating thousands of objects, it really can make a difference.
+
+
+22/01/22
+prototypes are non-enumerable, meaning that it doesn't show up when we try to access the objects properties. But it's still there!
+
+Classes are es6 features
+We write classes with the class keyword. A class has a constructor function, which is basically the constructor function 
+we wrote in the ES5 syntax! 
+The properties that we want to add to the prototype, are defined on the classes body itself.
+In an extended class, we can access the parent class' constructor using the super keyword. 
+The arguments the parent class' constructor expects, we have to pass to super keyword.
+
+WAYS TO ADD PROTOTYPES TO OBJECTS:
+--USING THE OBJECT.CREATE()------ With this method, we create a new object, 
+and can specify exactly what the prototype of that object should be!
+
+-- USING CONSTRUCTORS AND CLASSES.
+
+
+Prototypes are objects and they are sharable objects.
+Theyshare their properties and their methods so that you can access members via instances created.
